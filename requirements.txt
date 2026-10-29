@@ -1,0 +1,2 @@
+PySide6>=6.10
+numpy>=2.0      # SiliconUI 的动画与颜色计算依赖，不能省

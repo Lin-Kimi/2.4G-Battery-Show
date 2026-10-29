@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- PyInstaller ----
+build/
+dist/
+*.spec.bak
+
+# ---- 生成产物（截图脚本输出，不入库） ----
+*.png.tmp
+/preview.png
+/compare.png
+/smoke_*.png
+icon_check.png
+icon_zoom.png
+tray_new.png
+tray_zoom.png
+
+# ---- IDE / 系统 ----
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

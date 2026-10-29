@@ -9,5 +9,5 @@ sys.path.insert(0, os.path.join(ROOT, "third_party"))
 
 from app.main import main  # noqa: E402
 
-if __name__ == "__main__":
-    sys.exit(main())
+# if __name__ == "__main__":
+#     sys.exit(main())
